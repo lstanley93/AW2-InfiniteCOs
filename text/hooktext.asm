@@ -60,4 +60,9 @@
 .org 0x080853A8
 	.word TextTable
 	
+.org 0x08086C94
+	.word MapCaseNameTable
+.org 0x08086B9C
+	.word MapCaseNameTable
+	
 ;Blank Line	

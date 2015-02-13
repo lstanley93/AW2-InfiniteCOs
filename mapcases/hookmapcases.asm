@@ -1,8 +1,15 @@
 ;hookmapcases.asm
 ;Enables the Campaign Map Case in the Vs Menu
 
+.org 0x080865A4
+	cmp	r0,0xB
 .org 0x080865A8
 	mov	r0,0x1
-.org 0x080864a0
+.org 0x080865D6
+	cmp	r0,0xB
+.org 0x080865DA
+	mov	r0,0x1
+.org 0x080864A0
 	cmp	r0,0x0
-	
+.org 0x080864A4
+	mov	r0,0xB

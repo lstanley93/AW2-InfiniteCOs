@@ -10,15 +10,15 @@
 ;	.include music/KirbyNidl/KirbyDededeBattle-header.asm
 	
 ;Phoenix Wright - Ace Attorney
-	.align
-	.include music/AceAttorney/PW1Investigation-header.asm
-	.align
-	.include music/AceAttorney/PW1RevealTruth-header.asm
-	.align
-	.include music/AceAttorney/PW1Objection-header.asm
+;	.align
+;	.include music/AceAttorney/PW1Investigation-header.asm
+;	.align
+;	.include music/AceAttorney/PW1RevealTruth-header.asm
+;	.align
+;	.include music/AceAttorney/PW1Objection-header.asm
 	
 ;Pokemon Fire Red
-	.include music/FireredMusic/DeoxysBattle-header.asm
+;	.include music/FireredMusic/DeoxysBattle-header.asm
 	
 ;Midi 2 GBA Test
 ;	.align

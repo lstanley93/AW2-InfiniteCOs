@@ -153,6 +153,9 @@ ClassPlane 	equ 0x2
 ClassCopter	equ 0x3
 ClassNaval 	equ 0x4
 
+;Map Header Information
+MapHeaderMaximum equ 190+28+1;Maximum 255, First Extra is 191
+
 ;Map Cases
 CaseCampaign	equ 0x1
 CaseClassic	equ 0x2
@@ -162,6 +165,9 @@ Case3P		equ 0x5
 Case4P		equ 0x6
 CaseWarRoom	equ 0x7
 CaseDesignMaps	equ 0x8
+CaseExtraOne	equ 0x9
+CaseExtraTwo	equ 0xA
+CaseExtraThree	equ 0xB
 
 ;B-Button Range Displays
 BButtonDirect 			equ 0x1

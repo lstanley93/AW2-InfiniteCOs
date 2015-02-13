@@ -35,6 +35,8 @@
 	.include damageformula/hookunithpdisplayhidden.asm
 ;Modification to allow the Addition of more Daily Items
 	.include dailyitems/hookdailyitems.asm	
+;Map Header Table Pointer Updates
+	.include maps/hookmapsheader.asm	
 ;Map Table Inclusion
 	.include maps/hookmaps.asm
 ;Modification to Allow Campaign Map Selection in Vs
@@ -135,7 +137,10 @@
 	.align
 	.include graphics/coregraphics.asm
 ;Outrealm COs Text Blobs
-	.include text/outrealmmain.asm	
+	.include text/outrealmmain.asm
+;Extra Map Name Text
+	.include text/maps/extramapnames.asm
+	.include text/MapCaseNametable.asm
 	
 ;AWP Data Expansion
 	.align

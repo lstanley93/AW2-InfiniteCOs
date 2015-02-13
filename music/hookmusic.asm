@@ -18,26 +18,26 @@
 ;	.dh 1
 ;	.dh 1
 
-.org 0x8242A8C	
-ImportMusicPhoenixWrightInvestigation equ 0xE0
-	.dw PW1InvestigationTable
-	.dh 1
-	.dh 1
-	
-ImportMusicPhoenixWrightRevealTruth equ 0xE1
-	.dw PW1RevealTruthHeader
-	.dh 1
-	.dh 1
-	
-ImportMusicPhoenixWrightObjection equ 0xE2
-	.dw PW1ObjectionHeader
-	.dh 1
-	.dh 1
-
-ImportMusicFireRedDeoxys equ	0xE3
-	.dw DeoxysBattleHeader
-	.dh 1
-	.dh 1
+;.org 0x8242A8C	
+;ImportMusicPhoenixWrightInvestigation equ 0xE0
+;	.dw PW1InvestigationTable
+;	.dh 1
+;	.dh 1
+;	
+;ImportMusicPhoenixWrightRevealTruth equ 0xE1
+;	.dw PW1RevealTruthHeader
+;	.dh 1
+;	.dh 1
+;	
+;ImportMusicPhoenixWrightObjection equ 0xE2
+;	.dw PW1ObjectionHeader
+;	.dh 1
+;	.dh 1
+;
+;ImportMusicFireRedDeoxys equ	0xE3
+;	.dw DeoxysBattleHeader
+;	.dh 1
+;	.dh 1
 	
 ;ImportMusicIoTIncan equ 0xE4
 ;	.dw IoTIncanHeader

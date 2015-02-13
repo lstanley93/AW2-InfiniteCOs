@@ -3325,5 +3325,8 @@ TextTable:
 ;Outrealm COs
 	.include text/outrealmtable.asm
 	
+;Additional Maps
+	.include text/mapnametable.asm
+	
 
 ;Blank Line	
