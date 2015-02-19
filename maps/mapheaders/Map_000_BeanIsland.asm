@@ -40,7 +40,7 @@
 ; Unknown
 	.halfword 0
 ; Map Data
-	.word 0x081ba084
+	.word MapAW2BeanIsland;0x081ba084
 ; Map Data (Hard)
 	.word 0x00000000
 ; Unit Deployment Script

@@ -35,6 +35,8 @@
 	.include damageformula/hookunithpdisplayhidden.asm
 ;Modification to allow the Addition of more Daily Items
 	.include dailyitems/hookdailyitems.asm	
+;Modification to allow Map Unit Lists to be specific to one CO
+	.include maps/hookunitlist.asm
 ;Map Header Table Pointer Updates
 	.include maps/hookmapsheader.asm	
 ;Map Table Inclusion
@@ -107,6 +109,7 @@
 	.align
 	.include datatables/macroco.asm
 	.include maps/coremaps.asm
+	.include maps/coreunitlist.asm
 	.align
 
 	

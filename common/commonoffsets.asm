@@ -3,7 +3,7 @@
 ;Offsets that are used globally by AW2
 
 MaxCOId equ 68
-
+MapHeaderMaximum equ 190+30+1;Maximum 255, First Extra is 191
 
 BaseMapPointer 		equ 0x08499590
 BaseUnitPointer 	equ 0x08499598
@@ -128,7 +128,28 @@ BuildBase 	equ 0x01
 BuildPort 	equ 0x20
 BuildAirport 	equ 0x10
 
-;AI Unit Types
+;Unit Types
+UnitTypeInfantry	equ 0x1
+UnitTypeMech		equ 0x2
+UnitTypeMidTank		equ 0x3
+UnitTypeTank		equ 0x5
+UnitTypeRecon		equ 0x6
+UnitTypeAPC		equ 0x7
+UnitTypeNeotank		equ 0x8
+UnitTypeArtillery	equ 0xA
+UnitTypeRockets		equ 0xB
+UnitTypeAntiAir		equ 0xE
+UnitTypeMissiles	equ 0xF
+UnitTypeFighter		equ 0x10
+UnitTypeBomber		equ 0x11
+UnitTypeBattleCopter	equ 0x13
+UnitTypeTransportCopter	equ 0x14
+UnitTypeBattleship	equ 0x15
+UnitTypeCruiser		equ 0x16
+UnitTypeLander		equ 0x17
+UnitTypeSub		equ 0x18
+
+;AI Unit Classes
 AICaptureUnit 		equ 0x1
 AICarryFootSoldiers 	equ 0x2
 AIUnknownType 		equ 0x3
@@ -136,6 +157,10 @@ AIIndirectCombat 	equ 0x4
 AIDirectCombat 		equ 0x5
 AICarryLandUnits 	equ 0x6
 AIUnknownType2 		equ 0x7
+
+;AI Unit State Types (Scripts)
+AIUnitActive		equ 0x4
+AIUnitDefensive		equ 0x0
 
 ;Movement Types
 MoveFoot 		equ 0x0
@@ -153,8 +178,7 @@ ClassPlane 	equ 0x2
 ClassCopter	equ 0x3
 ClassNaval 	equ 0x4
 
-;Map Header Information
-MapHeaderMaximum equ 190+28+1;Maximum 255, First Extra is 191
+
 
 ;Map Cases
 CaseCampaign	equ 0x1

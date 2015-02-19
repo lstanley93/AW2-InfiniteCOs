@@ -1,7 +1,7 @@
 ;extramapnames.asm
 
 MapCaseNameOne:
-	.ascii	"Extra 1",0x0
+	.ascii	"Trial '12",0x0
 MapCaseNameTwo:
 	.ascii	"Extra 2",0x0
 MapCaseNameThree:
@@ -122,4 +122,63 @@ MapAW4UpAndUnderName:
 	.ascii	"Up and Under",0x0
 MapAW3CentralLakeName:
 	.ascii	"Central Lake",0x0
-
+MapWRH2_BankRobberyName:
+	.ascii "Bank Robbery",0x0
+MapWRH2_BarracudaBayName:
+	.ascii "Barracuda Bay",0x0
+MapWRH2_BattleBridgeName:
+	.ascii "Battle Bridge",0x0
+MapWRH2_BeachHeadName:
+	.ascii "Beach Head",0x0
+MapWRH2_BombardierName:
+	.ascii "Bombardier",0x0
+MapWRH2_CityOfGoldName:
+	.ascii "City of Gold",0x0
+MapWRH2_CometCatcherName:
+	.ascii "Comet Catcher",0x0
+MapWRH2_CrescentIsleName:
+	.ascii "Crescent Isle",0x0
+MapWRH2_FeelingBlueName:
+	.ascii "Feeling Blue",0x0
+MapWRH2_FortIsthmusName:
+	.ascii "Fort Isthmus",0x0
+MapWRH2_FrostBightName:
+	.ascii "Frost Bight",0x0
+MapWRH2_GanglandsName:
+	.ascii "Ganglands",0x0
+MapWRH2_IronKnuckleName:
+	.ascii "Iron Knuckle",0x0
+MapWRH2_IslandNationName:
+	.ascii "Island Nation",0x0
+MapWRH2_LegionPeninsulaName:
+	.ascii "Legion Pn.",0x0
+MapWRH2_LongBridgeName:
+	.ascii "Long Bridge",0x0
+MapWRH2_MarshlandsName:
+	.ascii "Marshlands",0x0
+MapWRH2_MialsCapeName:
+	.ascii "Mial's Cape",0x0
+MapWRH2_OldWoundsName:
+	.ascii "Old Wounds",0x0
+MapWRH2_ReverseSpannIslandName:
+	.ascii "BackSpann",0x0
+MapWRH2_RiverSideName:
+	.ascii "Riverside",0x0
+MapWRH2_SiloStormName:
+	.ascii "Silo Storm",0x0
+MapWRH2_SnowDayName:
+	.ascii "Snow Day",0x0
+MapWRH2_SorrowsBluffName:
+	.ascii "Sorrow's Bl.",0x0
+MapWRH2_SplitMountainName:
+	.ascii "Split Mountain",0x0
+MapWRH2_TalysmanName:
+	.ascii "Talysman",0x0
+MapWRH2_UnderSiegeName:
+	.ascii "Under Siege",0x0
+MapWRH2_UnholyAllianceName:
+	.ascii "Unholy Alliance",0x0
+MapWRH2_WazaName:
+	.ascii "Waza",0x0
+MapWRH2_WhirlpoolName:
+	.ascii "Whirlpool",0x0

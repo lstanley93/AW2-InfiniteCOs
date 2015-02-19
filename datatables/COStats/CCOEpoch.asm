@@ -7,7 +7,7 @@
 	.dh 0
 	
 ;Song ID to play for this CO
-	.dh ImportMusicFireRedDeoxys
+	.dh MusicBlackHole;ImportMusicFireRedDeoxys
 	
 ;Snowbringer Percentage
 	.dh 0

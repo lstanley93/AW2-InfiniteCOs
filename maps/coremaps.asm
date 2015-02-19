@@ -200,143 +200,241 @@ MapHeaderTable:
 	.include maps/mapheaders/Map_189_DesignMap.asm
 	.include maps/mapheaders/Map_190.asm
 	
-	.include maps/mapheaders/AW4Campaign1.asm
-	.include maps/mapheaders/AW4Campaign2.asm
-	.include maps/mapheaders/AW4Campaign3.asm
-	.include maps/mapheaders/AW4Campaign4.asm
-	.include maps/mapheaders/AW4Campaign5.asm
-	.include maps/mapheaders/AW4Campaign6.asm
-	.include maps/mapheaders/AW4Campaign7.asm
-	.include maps/mapheaders/AW4Campaign8.asm
-	.include maps/mapheaders/AW4Campaign9.asm
-	.include maps/mapheaders/AW4Campaign10.asm
-	.include maps/mapheaders/AW4Campaign11.asm
-	.include maps/mapheaders/AW4Campaign12.asm
-	.include maps/mapheaders/AW4Campaign13.asm
-	.include maps/mapheaders/AW4Campaign14.asm
-	.include maps/mapheaders/AW4Campaign15.asm
-	.include maps/mapheaders/AW4Campaign16.asm
-	.include maps/mapheaders/AW4Campaign17.asm
-	.include maps/mapheaders/AW4Campaign18.asm
-	.include maps/mapheaders/AW4Campaign19.asm
-	.include maps/mapheaders/AW4Campaign20.asm
-	.include maps/mapheaders/AW4Campaign21.asm
-	.include maps/mapheaders/AW4Campaign22.asm
-	.include maps/mapheaders/AW4Campaign23.asm
-	.include maps/mapheaders/AW4Campaign24.asm
-	.include maps/mapheaders/AW4Campaign25.asm
-	.include maps/mapheaders/AW4Campaign26.asm
-	.include maps/mapheaders/AW4ClownIsland.asm	
-	.include maps/mapheaders/AW4Unknown1.asm	
+;	.include maps/mapheaders/AW4Campaign1.asm
+;	.include maps/mapheaders/AW4Campaign2.asm
+;	.include maps/mapheaders/AW4Campaign3.asm
+;	.include maps/mapheaders/AW4Campaign4.asm
+;	.include maps/mapheaders/AW4Campaign5.asm
+;	.include maps/mapheaders/AW4Campaign6.asm
+;	.include maps/mapheaders/AW4Campaign7.asm
+;	.include maps/mapheaders/AW4Campaign8.asm
+;	.include maps/mapheaders/AW4Campaign9.asm
+;	.include maps/mapheaders/AW4Campaign10.asm
+;	.include maps/mapheaders/AW4Campaign11.asm
+;	.include maps/mapheaders/AW4Campaign12.asm
+;	.include maps/mapheaders/AW4Campaign13.asm
+;	.include maps/mapheaders/AW4Campaign14.asm
+;	.include maps/mapheaders/AW4Campaign15.asm
+;	.include maps/mapheaders/AW4Campaign16.asm
+;	.include maps/mapheaders/AW4Campaign17.asm
+;	.include maps/mapheaders/AW4Campaign18.asm
+;	.include maps/mapheaders/AW4Campaign19.asm
+;	.include maps/mapheaders/AW4Campaign20.asm
+;	.include maps/mapheaders/AW4Campaign21.asm
+;	.include maps/mapheaders/AW4Campaign22.asm
+;	.include maps/mapheaders/AW4Campaign23.asm
+;	.include maps/mapheaders/AW4Campaign24.asm
+;	.include maps/mapheaders/AW4Campaign25.asm
+;	.include maps/mapheaders/AW4Campaign26.asm
+;	.include maps/mapheaders/AW4ClownIsland.asm	
+;	.include maps/mapheaders/AW4Unknown1.asm	
+
+
+	.include maps/mapheaders/WRH2_001_ReverseSpann.asm
+	.include maps/mapheaders/WRH2_002_MialsCape.asm
+	.include maps/mapheaders/WRH2_003_IronKnuckle.asm
+	.include maps/mapheaders/WRH2_004_BeachHead.asm
+	.include maps/mapheaders/WRH2_005_LongBridge.asm
+	.include maps/mapheaders/WRH2_006_BankRobbery.asm
+	.include maps/mapheaders/WRH2_007_BattleBridge.asm
+	.include maps/mapheaders/WRH2_008_IslandNation.asm
+	.include maps/mapheaders/WRH2_009_CrescentIsle.asm
+	.include maps/mapheaders/WRH2_010_FortIsthmus.asm		
+	.include maps/mapheaders/WRH2_011_BarracudaBay.asm		
+	.include maps/mapheaders/WRH2_012_CityOfGold.asm		
+	.include maps/mapheaders/WRH2_013_Waza.asm		
+	.include maps/mapheaders/WRH2_014_LegionPeninsula.asm		
+	.include maps/mapheaders/WRH2_015_SorrowsBluff.asm 		
+	.include maps/mapheaders/WRH2_016_Bombardier.asm		
+	.include maps/mapheaders/WRH2_017_Whirlpool.asm		
+	.include maps/mapheaders/WRH2_018_Talysman.asm		
+	.include maps/mapheaders/WRH2_019_OldWounds.asm		
+	.include maps/mapheaders/WRH2_020_FrostBight.asm		
+	.include maps/mapheaders/WRH2_021_SnowDay.asm	
+	.include maps/mapheaders/WRH2_022_UnderSiege.asm	
+	.include maps/mapheaders/WRH2_023_SplitMountain.asm	
+	.include maps/mapheaders/WRH2_024_FeelingBlue.asm	
+	.include maps/mapheaders/WRH2_025_Riverside.asm
+	.include maps/mapheaders/WRH2_026_Marshlands.asm
+	.include maps/mapheaders/WRH2_027_Ganglands.asm
+	.include maps/mapheaders/WRH2_028_CometCatcher.asm
+	.include maps/mapheaders/WRH2_029_SiloStorm.asm
+	.include maps/mapheaders/WRH2_030_UnholyAlliance.asm
 	
-MapAW4Campaign1:
-	.import maps/mapfiles/cmp01.map
-MapAW4Campaign2:
-	.import maps/mapfiles/cmp02.map
-MapAW4Campaign3:
-	.import maps/mapfiles/cmp03.map
-MapAW4Campaign4:
-	.import maps/mapfiles/cmp04.map
-MapAW4Campaign5:
-	.import maps/mapfiles/cmp05.map
-MapAW4Campaign6:
-	.import maps/mapfiles/cmp06.map
-MapAW4Campaign7:
-	.import maps/mapfiles/cmp07.map
-MapAW4Campaign8:
-	.import maps/mapfiles/cmp08.map
-MapAW4Campaign9:
-	.import maps/mapfiles/cmp09.map
-MapAW4Campaign10:
-	.import maps/mapfiles/cmp10.map
-MapAW4Campaign11:
-	.import maps/mapfiles/cmp11.map
-MapAW4Campaign12:
-	.import maps/mapfiles/cmp12.map
-MapAW4Campaign13:
-	.import maps/mapfiles/cmp13.map
-MapAW4Campaign14:
-	.import maps/mapfiles/cmp14.map
-MapAW4Campaign15:
-	.import maps/mapfiles/cmp15.map
-MapAW4Campaign16:
-	.import maps/mapfiles/cmp16.map
-MapAW4Campaign17:
-	.import maps/mapfiles/cmp17.map
-MapAW4Campaign18:
-	.import maps/mapfiles/cmp18.map
-MapAW4Campaign19:
-	.import maps/mapfiles/cmp19.map
-MapAW4Campaign20:
-	.import maps/mapfiles/cmp20.map
-MapAW4Campaign21:
-	.import maps/mapfiles/cmp21.map
-MapAW4Campaign22:
-	.import maps/mapfiles/cmp22.map
-MapAW4Campaign23:
-	.import maps/mapfiles/cmp23.map
-MapAW4Campaign24:
-	.import maps/mapfiles/cmp24.map
-MapAW4Campaign25:
-	.import maps/mapfiles/cmp25.map
-MapAW4Campaign26:
-	.import maps/mapfiles/cmp26.map	
-MapAW4ShadeCoast:	
-	.import maps/mapfiles/nakazawa04.map
-MapAW4CatIsland:
-	.import maps/mapfiles/nakazawa05.map
-MapAW4MouseIsland:
-	.import maps/mapfiles/nakazawa07.map
-MapAW4WeddingRing:
-	.import maps/mapfiles/nakazawa09.map
-MapAW4ExtremeEdge:
-	.import maps/mapfiles/nakazawa11.map
-MapAW4DestinyOcean:
-	.import maps/mapfiles/nakazawa12.map
-MapAW4ClownIsland:
-	.import maps/mapfiles/nakazawa16.map
-MapAW4FireAndWater:
-	.import maps/mapfiles/nakazawa19.map
-MapAW4IntricateMap:
-	.import maps/mapfiles/nakazawa21.map
-MapAW4CentreRiver:
-	.import maps/mapfiles/nakazawa29.map
-MapAW4BoxedIn:
-	.import maps/mapfiles/nakazawa30.map
-MapAW4SlimeCove:
-	.import maps/mapfiles/nakazawa32.map
-MapAW4SpannerIsle:
-	.import maps/mapfiles/nakazawa40.map
-MapAW4RobotIsle:
-	.import maps/mapfiles/nakazawa42.map
-MapAW4Unknown1:
-	.import maps/mapfiles/nakazawa53.map
-MapAW4FaceIsland:	
-	.import maps/mapfiles/muramatu00.map
-MapAW4ClearIsland:	
-	.import maps/mapfiles/muramatu07.map
-MapAW4MetroIsland:	
-	.import maps/mapfiles/muramatu08.map
-MapAW4BladeIsles:	
-	.import maps/mapfiles/muramatu10.map
-MapAW4FelineBasin:	
-	.import maps/mapfiles/muramatu17.map
-MapAW4SpectacleMap:	
-	.import maps/mapfiles/muramatu22.map
-MapAW4AntipodeMap:	
-	.import maps/mapfiles/muramatu33.map
-MapAW4PretzelMap:	
-	.import maps/mapfiles/muramatu36.map
-MapAW4HeavenMap:	
-	.import maps/mapfiles/muramatu37.map
-MapAW4JesterMap:	
-	.import maps/mapfiles/muramatu38.map
-MapAW4SplitIsland:	
-	.import maps/mapfiles/muramatu52.map
-MapAW4UpAndUnder:
-	.import maps/mapfiles/Jeff.map
-MapAW3CentralLake:
-	.import maps/mapfiles/Jeff2.map
+;List of Map Files to be included	
+MapAW2BeanIsland:
+	.import maps/mapfiles/AW2/AW2_CL2_BeanIsland.bin
+MapWRH2_BankRobbery:
+	.import maps/mapfiles/WarRoomHack2/WRH2_BankRobbery.bin
+MapWRH2_BarracudaBay:
+	.import maps/mapfiles/WarRoomHack2/WRH2_BarracudaBay.bin
+MapWRH2_BattleBridge:
+	.import maps/mapfiles/WarRoomHack2/WRH2_BattleBridge.bin
+MapWRH2_BeachHead:
+	.import maps/mapfiles/WarRoomHack2/WRH2_BeachHead.bin
+MapWRH2_Bombardier:
+	.import maps/mapfiles/WarRoomHack2/WRH2_Bombardier.bin
+MapWRH2_CityOfGold:
+	.import maps/mapfiles/WarRoomHack2/WRH2_CityOfGold.bin
+MapWRH2_CometCatcher:
+	.import maps/mapfiles/WarRoomHack2/WRH2_CometCatcher.bin
+MapWRH2_CrescentIsle:
+	.import maps/mapfiles/WarRoomHack2/WRH2_CrescentIsle.bin
+MapWRH2_FeelingBlue:
+	.import maps/mapfiles/WarRoomHack2/WRH2_FeelingBlue.bin
+MapWRH2_FortIsthmus:
+	.import maps/mapfiles/WarRoomHack2/WRH2_FortIsthmus.bin
+MapWRH2_FrostBight:
+	.import maps/mapfiles/WarRoomHack2/WRH2_FrostBight.bin
+MapWRH2_Ganglands:
+	.import maps/mapfiles/WarRoomHack2/WRH2_Ganglands.bin
+MapWRH2_IronKnuckle:
+	.import maps/mapfiles/WarRoomHack2/WRH2_IronKnuckle.bin
+MapWRH2_IslandNation:
+	.import maps/mapfiles/WarRoomHack2/WRH2_IslandNation.bin
+MapWRH2_LegionPeninsula:
+	.import maps/mapfiles/WarRoomHack2/WRH2_LegionPeninsula.bin
+MapWRH2_LongBridge:
+	.import maps/mapfiles/WarRoomHack2/WRH2_LongBridge.bin
+MapWRH2_Marshlands:
+	.import maps/mapfiles/WarRoomHack2/WRH2_Marshlands.bin
+MapWRH2_MialsCape:
+	.import maps/mapfiles/WarRoomHack2/WRH2_MialsCape.bin
+MapWRH2_OldWounds:
+	.import maps/mapfiles/WarRoomHack2/WRH2_OldWounds.bin
+MapWRH2_ReverseSpannIsland:
+	.import maps/mapfiles/WarRoomHack2/WRH2_ReverseSpannIsland.bin
+MapWRH2_RiverSide:
+	.import maps/mapfiles/WarRoomHack2/WRH2_RiverSide.bin
+MapWRH2_SiloStorm:
+	.import maps/mapfiles/WarRoomHack2/WRH2_SiloStorm.bin
+MapWRH2_SnowDay:
+	.import maps/mapfiles/WarRoomHack2/WRH2_SnowDay.bin
+MapWRH2_SorrowsBluff:
+	.import maps/mapfiles/WarRoomHack2/WRH2_SorrowsBluff.bin
+MapWRH2_SplitMountain:
+	.import maps/mapfiles/WarRoomHack2/WRH2_SplitMountain.bin
+MapWRH2_Talysman:
+	.import maps/mapfiles/WarRoomHack2/WRH2_Talysman.bin
+MapWRH2_UnderSiege:
+	.import maps/mapfiles/WarRoomHack2/WRH2_UnderSiege.bin
+MapWRH2_UnholyAlliance:
+	.import maps/mapfiles/WarRoomHack2/WRH2_UnholyAlliance.bin
+MapWRH2_Waza:
+	.import maps/mapfiles/WarRoomHack2/WRH2_Waza.bin
+MapWRH2_Whirlpool:
+	.import maps/mapfiles/WarRoomHack2/WRH2_Whirlpool.bin
+
+;MapAW4Campaign1:
+;	.import maps/mapfiles/AW4/cmp01.map
+;MapAW4Campaign2:
+;	.import maps/mapfiles/AW4/cmp02.map
+;MapAW4Campaign3:
+;	.import maps/mapfiles/AW4/cmp03.map
+;MapAW4Campaign4:
+;	.import maps/mapfiles/AW4/cmp04.map
+;MapAW4Campaign5:
+;	.import maps/mapfiles/AW4/cmp05.map
+;MapAW4Campaign6:
+;	.import maps/mapfiles/AW4/cmp06.map
+;MapAW4Campaign7:
+;	.import maps/mapfiles/AW4/cmp07.map
+;MapAW4Campaign8:
+;	.import maps/mapfiles/AW4/cmp08.map
+;MapAW4Campaign9:
+;	.import maps/mapfiles/AW4/cmp09.map
+;MapAW4Campaign10:
+;	.import maps/mapfiles/AW4/cmp10.map
+;MapAW4Campaign11:
+;	.import maps/mapfiles/AW4/cmp11.map
+;MapAW4Campaign12:
+;	.import maps/mapfiles/AW4/cmp12.map
+;MapAW4Campaign13:
+;	.import maps/mapfiles/AW4/cmp13.map
+;MapAW4Campaign14:
+;	.import maps/mapfiles/AW4/cmp14.map
+;MapAW4Campaign15:
+;	.import maps/mapfiles/AW4/cmp15.map
+;MapAW4Campaign16:
+;	.import maps/mapfiles/AW4/cmp16.map
+;MapAW4Campaign17:
+;	.import maps/mapfiles/AW4/cmp17.map
+;MapAW4Campaign18:
+;	.import maps/mapfiles/AW4/cmp18.map
+;MapAW4Campaign19:
+;	.import maps/mapfiles/AW4/cmp19.map
+;MapAW4Campaign20:
+;	.import maps/mapfiles/AW4/cmp20.map
+;MapAW4Campaign21:
+;	.import maps/mapfiles/AW4/cmp21.map
+;MapAW4Campaign22:
+;	.import maps/mapfiles/AW4/cmp22.map
+;MapAW4Campaign23:
+;	.import maps/mapfiles/AW4/cmp23.map
+;MapAW4Campaign24:
+;	.import maps/mapfiles/AW4/cmp24.map
+;MapAW4Campaign25:
+;	.import maps/mapfiles/AW4/cmp25.map
+;MapAW4Campaign26:
+;	.import maps/mapfiles/AW4/cmp26.map	
+;MapAW4ShadeCoast:	
+;	.import maps/mapfiles/AW4/nakazawa04.map
+;MapAW4CatIsland:
+;	.import maps/mapfiles/AW4/nakazawa05.map
+;MapAW4MouseIsland:
+;	.import maps/mapfiles/AW4/nakazawa07.map
+;MapAW4WeddingRing:
+;	.import maps/mapfiles/AW4/nakazawa09.map
+;MapAW4ExtremeEdge:
+;	.import maps/mapfiles/AW4/nakazawa11.map
+;MapAW4DestinyOcean:
+;	.import maps/mapfiles/AW4/nakazawa12.map
+;MapAW4ClownIsland:
+;	.import maps/mapfiles/AW4/nakazawa16.map
+;MapAW4FireAndWater:
+;	.import maps/mapfiles/AW4/nakazawa19.map
+;MapAW4IntricateMap:
+;	.import maps/mapfiles/AW4/nakazawa21.map
+;MapAW4CentreRiver:
+;	.import maps/mapfiles/AW4/nakazawa29.map
+;MapAW4BoxedIn:
+;	.import maps/mapfiles/AW4/nakazawa30.map
+;MapAW4SlimeCove:
+;	.import maps/mapfiles/AW4/nakazawa32.map
+;MapAW4SpannerIsle:
+;	.import maps/mapfiles/AW4/nakazawa40.map
+;MapAW4RobotIsle:
+;	.import maps/mapfiles/AW4/nakazawa42.map
+;MapAW4Unknown1:
+;	.import maps/mapfiles/AW4/nakazawa53.map
+;MapAW4FaceIsland:	
+;	.import maps/mapfiles/AW4/muramatu00.map
+;MapAW4ClearIsland:	
+;	.import maps/mapfiles/AW4/muramatu07.map
+;MapAW4MetroIsland:	
+;	.import maps/mapfiles/AW4/muramatu08.map
+;MapAW4BladeIsles:	
+;	.import maps/mapfiles/AW4/muramatu10.map
+;MapAW4FelineBasin:	
+;	.import maps/mapfiles/AW4/muramatu17.map
+;MapAW4SpectacleMap:	
+;	.import maps/mapfiles/AW4/muramatu22.map
+;MapAW4AntipodeMap:	
+;	.import maps/mapfiles/AW4/muramatu33.map
+;MapAW4PretzelMap:	
+;	.import maps/mapfiles/AW4/muramatu36.map
+;MapAW4HeavenMap:	
+;	.import maps/mapfiles/AW4/muramatu37.map
+;MapAW4JesterMap:	
+;	.import maps/mapfiles/AW4/muramatu38.map
+;MapAW4SplitIsland:	
+;	.import maps/mapfiles/AW4/muramatu52.map
+;MapAW4UpAndUnder:
+;	.import maps/mapfiles/AW4/Jeff.map
+;MapAW3CentralLake:
+;	.import maps/mapfiles/AW4/Jeff2.map
 	
 	.align
+;List of Map Unit Lists to be included
+	.include maps/unitlists/WarRoomHack2/WRH2_Whirlpool_Unitlist.asm
 ;Blank Line

@@ -153,7 +153,20 @@
 	.dw	MapHeaderTable
 .org 0x08090EC0
 	.dw	MapHeaderTable
+	
+;Slightly Offset Map Headers
+.org 0x0803C1D0	;0x0805C77E0
+	.dw	MapHeaderTable+0x40
+.org 0x08034750 ;0x0805C77E0
+	.dw	MapHeaderTable+0x40
+.org 0x08046600 ;0x0805C77DC
+	.dw	MapHeaderTable+0x3C
+.org 0x08077B68 ;0x0805C77E0
+	.dw	MapHeaderTable+0x40
+.org 0x08087C04 ;0x0805C77DC
+	.dw	MapHeaderTable+0x3C
 
+;Map Header Loading Code/Menu Code
 .org 0x080374B4
 	;Upper Map ID Limit
 	cmp	r4,MapHeaderMaximum
@@ -176,6 +189,11 @@ MapHeaderDesignMapDisplayOverCheck:
 .org 0x08086F4E
 ;Load the Design Maps Image or the Map Data
 ;First Render Only
+.org 0x08086FC6
+	ldr	r0,=MapHeaderDesignMapFirstDisplayOverCheck+1
+	bx	r0
+.org 0x08087028
+	.pool
 
 .org 0x08087112
 ;Controls the property count display
@@ -192,4 +210,9 @@ MapHeaderDesignMapDisplayOverCheck:
 
 
 ;0x0803CA54: Unlocked Map Status
+.org 0x0803CA66
+	mov	r0,0x1	;Force Map Unlock Status
 	
+;0x0803CA9C: Unlocked Map Case Status
+.org 0x0803CAAE
+	mov	r0,0x1	;Force Map Case Unlock Status

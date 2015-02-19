@@ -184,7 +184,7 @@
 	.dw MovementChartRain
 	
 ;CO Power Music
-	.dh ImportMusicPhoenixWrightRevealTruth
+	.dh MusicPower;ImportMusicPhoenixWrightRevealTruth
 	
 ;Repair Bonus
 	.dh 0
@@ -273,7 +273,7 @@
 	.dw MovementChartRain
 	
 ;Super CO Power Music
-	.dh ImportMusicPhoenixWrightRevealTruth
+	.dh MusicSuper;ImportMusicPhoenixWrightRevealTruth
 	
 ;Repair Bonus
 	.dh 0

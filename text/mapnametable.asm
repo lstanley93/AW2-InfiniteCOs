@@ -71,4 +71,37 @@
 	.dw MapAW4SplitIslandName
 	.dw MapAW4UpAndUnderName
 	.dw MapAW3CentralLakeName
-
+	.dw MapWRH2_BankRobberyName
+	.dw MapWRH2_BarracudaBayName
+	.dw MapWRH2_BattleBridgeName
+	.dw MapWRH2_BeachHeadName
+	.dw MapWRH2_BombardierName
+	.dw MapWRH2_CityOfGoldName
+	;60
+	.dw MapWRH2_CometCatcherName
+	.dw MapWRH2_CrescentIsleName
+	.dw MapWRH2_FeelingBlueName
+	.dw MapWRH2_FortIsthmusName
+	.dw MapWRH2_FrostBightName
+	.dw MapWRH2_GanglandsName
+	.dw MapWRH2_IronKnuckleName
+	.dw MapWRH2_IslandNationName
+	.dw MapWRH2_LegionPeninsulaName
+	.dw MapWRH2_LongBridgeName
+	;70
+	.dw MapWRH2_MarshlandsName
+	.dw MapWRH2_MialsCapeName
+	.dw MapWRH2_OldWoundsName
+	.dw MapWRH2_ReverseSpannIslandName
+	.dw MapWRH2_RiverSideName
+	.dw MapWRH2_SiloStormName
+	.dw MapWRH2_SnowDayName
+	.dw MapWRH2_SorrowsBluffName
+	.dw MapWRH2_SplitMountainName
+	.dw MapWRH2_TalysmanName
+	;80
+	.dw MapWRH2_UnderSiegeName
+	.dw MapWRH2_UnholyAllianceName
+	.dw MapWRH2_WazaName
+	.dw MapWRH2_WhirlpoolName	
+	
