@@ -1,11 +1,11 @@
 ;extramapnames.asm
 
 MapCaseNameOne:
-	.ascii	"Trial '12",0x0
+	.ascii	"Challenge '12",0x0
 MapCaseNameTwo:
-	.ascii	"Extra 2",0x0
+	.ascii	"AW1 Story",0x0
 MapCaseNameThree:
-	.ascii	"Extra 3",0x0
+	.ascii	"Campaign 3",0x0
 MapCaseNameFour:
 	.ascii	"Extra 4",0x0
 MapCaseNameFive:
@@ -182,3 +182,75 @@ MapWRH2_WazaName:
 	.ascii "Waza",0x0
 MapWRH2_WhirlpoolName:
 	.ascii "Whirlpool",0x0
+	
+MapAW1_162_RivalsName:
+	.ascii "Rivals!",0x0
+	
+MapAWDS_223_JakesTrialName:
+	.ascii "Jake's Trial",0x0
+MapAWDS_224_TheNewBlackName:
+	.ascii "The New Black",0x0
+MapAWDS_225_MaxAttacksName:
+	.ascii "Max Attacks",0x0
+MapAWDS_226_ReclaimtheSkiesName:
+	.ascii "Reclaim The Skies",0x0
+MapAWDS_227_NeverendingWarName:
+	.ascii "Neverending War",0x0
+MapAWDS_228_TheOceanBlueName:
+	.ascii "The Ocean Blue",0x0
+MapAWDS_229_FogRollsInName:
+	.ascii "Fog Rolls In",0x0
+MapAWDS_230_TagBattleName:
+	.ascii "Tag Battle",0x0
+MapAWDS_231_VictoryorDeathName:
+	.ascii "Victory or Death",0x0
+MapAWDS_232_BlackBoatsAhoyName:
+	.ascii "Black Boats Ahoy!",0x0
+MapAWDS_233_LightningStrikesName:
+	.ascii "Lightning Strikes",0x0
+MapAWDS_234_FrozenFortressName:
+	.ascii "Frozen Fortress",0x0
+MapAWDS_235_VerdantHillsName:
+	.ascii "Verdant Hills",0x0
+MapAWDS_236_SnowHuntersName:
+	.ascii "Snow Hunters",0x0
+MapAWDS_237_OmensandSignsName:
+	.ascii "Omens and Signs",0x0
+MapAWDS_238_IntotheWoodsName:
+	.ascii "Into the Woods",0x0
+MapAWDS_239_MuckAmokName:
+	.ascii "Muck Amok",0x0
+MapAWDS_240_HealingTouchName:
+	.ascii "Healing Touch",0x0
+MapAWDS_241_CrystalCalamityName:
+	.ascii "Crystal Calamity",0x0
+MapAWDS_242_DarkAmbitionName:
+	.ascii "Dark Ambition",0x0
+MapAWDS_243_PincerStrikeName:
+	.ascii "Pincer Strike",0x0
+MapAWDS_244_RingofFireName:
+	.ascii "Ring of Fire",0x0
+MapAWDS_245_SurroundedName:
+	.ascii "Surrounded!",0x0
+MapAWDS_246_FortheFutureName:
+	.ascii "For the Future",0x0
+MapAWDS_247_MeanstoanEndName:
+	.ascii "Means to an End",0x0
+MapAWDS_248_TheLongMarchName:
+	.ascii "The Long March",0x0
+MapAWDS_249_LashsTestName:
+	.ascii "Lash's  Test",0x0
+MapAWDS_250_SpiralGardenName:
+	.ascii "Spiral Garden",0x0
+MapAWDS_251_DSMapName:
+	.ascii "Victory or Death DS",0x0
+MapAWDS_252_DSMapName:
+	.ascii "Lightning Strikes DS",0x0
+MapAWDS_253_DSMapName:
+	.ascii "Omens and Signs DS",0x0
+MapAWDS_254_DSMapName:
+	.ascii "Rain of Fire DS",0x0
+MapAWDS_255_DSMapName:
+	.ascii "Means to an End DS",0x0
+	
+	

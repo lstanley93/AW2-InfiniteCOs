@@ -216,3 +216,25 @@ MapHeaderDesignMapDisplayOverCheck:
 ;0x0803CA9C: Unlocked Map Case Status
 .org 0x0803CAAE
 	mov	r0,0x1	;Force Map Case Unlock Status
+	
+;Widen the Menu Box to allow for larger names
+;Shift all the OAM elements to the right appropriately
+;Box Sizes
+.org 0x08085D74
+	mov	r2,0xF	;Was 0xC
+.org 0x08085D84
+	mov	r2,0xF	;Was 0xC
+.org 0x08085D96
+	mov	r2,0x10 ;Was 0xD
+	
+;Arrow/Position OAM Placement	
+.org 0x08087462
+	mov	r1,0x60
+.org 0x080874F0
+	mov	r1,0x60
+.org 0x080871C2
+	mov	r1,0x30
+.org 0x080871E8
+	mov	r1,0x30
+.org 0x08087206
+	mov	r1,0x60

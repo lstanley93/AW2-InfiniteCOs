@@ -261,6 +261,41 @@ MapHeaderTable:
 	.include maps/mapheaders/WRH2_029_SiloStorm.asm
 	.include maps/mapheaders/WRH2_030_UnholyAlliance.asm
 	
+;	.include maps/mapheaders/AW1_162_Rivals.asm
+	.include maps/mapheaders/AWDS_223_JakesTrial.asm
+	.include maps/mapheaders/AWDS_224_TheNewBlack.asm
+	.include maps/mapheaders/AWDS_225_MaxAttacks.asm
+	.include maps/mapheaders/AWDS_226_ReclaimTheSkies.asm
+	.include maps/mapheaders/AWDS_227_NeverendingWar.asm
+	.include maps/mapheaders/AWDS_228_TheOceanBlue.asm
+	.include maps/mapheaders/AWDS_229_FogRollsIn.asm
+	.include maps/mapheaders/AWDS_230_TagBattle.asm
+	.include maps/mapheaders/AWDS_231_VictoryOrDeath.asm
+	.include maps/mapheaders/AWDS_232_BlackBoatsAhoy.asm
+	.include maps/mapheaders/AWDS_233_LightningStrikes.asm
+	.include maps/mapheaders/AWDS_234_FrozenFortress.asm
+	.include maps/mapheaders/AWDS_235_VerdantHills.asm
+	.include maps/mapheaders/AWDS_236_SnowHunters.asm
+	.include maps/mapheaders/AWDS_237_OmensAndSigns.asm
+	.include maps/mapheaders/AWDS_238_IntoTheWoods.asm
+	.include maps/mapheaders/AWDS_239_MuckAmok.asm
+	.include maps/mapheaders/AWDS_240_HealingTouch.asm
+	.include maps/mapheaders/AWDS_241_CrystalCalamity.asm
+	.include maps/mapheaders/AWDS_242_DarkAmbition.asm
+	.include maps/mapheaders/AWDS_243_PincerStrike.asm
+	.include maps/mapheaders/AWDS_244_RingOfFire.asm
+	.include maps/mapheaders/AWDS_245_Surrounded.asm
+	.include maps/mapheaders/AWDS_246_ForTheFuture.asm
+	.include maps/mapheaders/AWDS_247_MeansToAnEnd.asm
+	.include maps/mapheaders/AWDS_248_TheLongMarch.asm
+	.include maps/mapheaders/AWDS_249_LashsTest.asm	
+	.include maps/mapheaders/AWDS_250_SpiralGarden.asm	
+	.include maps/mapheaders/AWDS_251_VictoryOrDeathDS.asm	
+	.include maps/mapheaders/AWDS_252_LightningStrikesDS.asm	
+	.include maps/mapheaders/AWDS_253_OmensAndSignsDS.asm
+	.include maps/mapheaders/AWDS_254_RainOfFireDS.asm
+	.include maps/mapheaders/AWDS_255_MeansToAnEndDS.asm
+	
 ;List of Map Files to be included	
 MapAW2BeanIsland:
 	.import maps/mapfiles/AW2/AW2_CL2_BeanIsland.bin
@@ -324,6 +359,76 @@ MapWRH2_Waza:
 	.import maps/mapfiles/WarRoomHack2/WRH2_Waza.bin
 MapWRH2_Whirlpool:
 	.import maps/mapfiles/WarRoomHack2/WRH2_Whirlpool.bin
+	
+MapAW1_Rivals:
+	.import maps/mapfiles/AW1/AW1_162.map
+	
+MapAWDS_223_JakesTrial:
+	.import maps/mapfiles/AW3/AWDS_223.map
+MapAWDS_224_TheNewBlack:
+	.import maps/mapfiles/AW3/AWDS_224.map
+MapAWDS_225_MaxAttacks:
+	.import maps/mapfiles/AW3/AWDS_225.map
+MapAWDS_226_ReclaimtheSkies:
+	.import maps/mapfiles/AW3/AWDS_226.map
+MapAWDS_227_NeverendingWar:
+	.import maps/mapfiles/AW3/AWDS_227.map
+MapAWDS_228_TheOceanBlue:
+	.import maps/mapfiles/AW3/AWDS_228.map
+MapAWDS_229_FogRollsIn:
+	.import maps/mapfiles/AW3/AWDS_229.map
+MapAWDS_230_TagBattle:
+	.import maps/mapfiles/AW3/AWDS_230.map
+MapAWDS_231_VictoryorDeath:
+	.import maps/mapfiles/AW3/AWDS_231.map
+MapAWDS_232_BlackBoatsAhoy:
+	.import maps/mapfiles/AW3/AWDS_232.map
+MapAWDS_233_LightningStrikes:
+	.import maps/mapfiles/AW3/AWDS_233.map
+MapAWDS_234_FrozenFortress:
+	.import maps/mapfiles/AW3/AWDS_234.map
+MapAWDS_235_VerdantHills:
+	.import maps/mapfiles/AW3/AWDS_235.map
+MapAWDS_236_SnowHunters:
+	.import maps/mapfiles/AW3/AWDS_236.map
+MapAWDS_237_OmensandSigns:
+	.import maps/mapfiles/AW3/AWDS_237.map
+MapAWDS_238_IntotheWoods:
+	.import maps/mapfiles/AW3/AWDS_238.map
+MapAWDS_239_MuckAmok:
+	.import maps/mapfiles/AW3/AWDS_239.map
+MapAWDS_240_HealingTouch:
+	.import maps/mapfiles/AW3/AWDS_240.map
+MapAWDS_241_CrystalCalamity:
+	.import maps/mapfiles/AW3/AWDS_241.map
+MapAWDS_242_DarkAmbition:
+	.import maps/mapfiles/AW3/AWDS_242.map
+MapAWDS_243_PincerStrike:
+	.import maps/mapfiles/AW3/AWDS_243.map
+MapAWDS_244_RingofFire:
+	.import maps/mapfiles/AW3/AWDS_244.map
+MapAWDS_245_Surrounded:
+	.import maps/mapfiles/AW3/AWDS_245.map
+MapAWDS_246_FortheFuture:
+	.import maps/mapfiles/AW3/AWDS_246.map
+MapAWDS_247_MeanstoanEnd:
+	.import maps/mapfiles/AW3/AWDS_247.map
+MapAWDS_248_TheLongMarch:
+	.import maps/mapfiles/AW3/AWDS_248.map
+MapAWDS_249_LashsTest:
+	.import maps/mapfiles/AW3/AWDS_249.map
+MapAWDS_250_SpiralGarden:
+	.import maps/mapfiles/AW3/AWDS_250.map
+MapAWDS_251:
+	.import maps/mapfiles/AW3/AWDS_251.map
+MapAWDS_252:
+	.import maps/mapfiles/AW3/AWDS_252.map
+MapAWDS_253:
+	.import maps/mapfiles/AW3/AWDS_253.map
+MapAWDS_254:
+	.import maps/mapfiles/AW3/AWDS_254.map
+MapAWDS_255:
+	.import maps/mapfiles/AW3/AWDS_255.map
 
 ;MapAW4Campaign1:
 ;	.import maps/mapfiles/AW4/cmp01.map

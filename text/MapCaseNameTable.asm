@@ -1,5 +1,6 @@
 ;MapCaseNameTable.asm
-
+	
+	.align
 MapCaseNameTable:
 	.dh	2603
 	.dh	2604

@@ -19,6 +19,8 @@
 	.include datatables/hookcographicsandpowertable.asm
 ;Unit Data Table Entries
 	.include datatables/hookunittable.asm
+;Terrain Data Table Entries
+	.include datatables/hookterrainclassinfo.asm
 ;Modifications to the Damage formula for bugfix/expansion
 	.include damageformula/hookdamageformula.asm
 ;Modifications to the Mass Damage code for Expansion
@@ -59,6 +61,9 @@
 	.include dossiertextfix/hookdossiertextfix.asm
 ;Fixes Expanded CO Mugs
 	.include smallmugfix/hooksmallmugfix.asm
+;Fixes to the Mini Infobox for Terrain
+	.include terrainfix/hookterrainminiinfoboxfix.asm
+	
 ;Always makes bonus COs available
 	.include unlockbonuscos/hookunlockbonus.asm
 ;Expansion Code to allow daily skills and unit changes

@@ -1,7 +1,9 @@
 ;mapnametable.asm
 
 	AdditionalMapCaseNames	equ	ScriptCCOZed+14
-	AdditionalMapNames	equ	AdditionalMapCaseNames+7
+	AW1CampaignMapNames	equ 	AdditionalMapCaseNames+7
+	AWDSCampaignMapNames	equ	AW1CampaignMapNames+1
+	AdditionalMapNames	equ	AWDSCampaignMapNames+33
 	
 	.dw MapCaseNameOne
 	.dw MapCaseNameTwo
@@ -11,6 +13,41 @@
 	.dw MapCaseNameSix
 	.dw MapCaseNameSeven
 	
+	.dw MapAW1_162_RivalsName
+	
+	.dw MapAWDS_223_JakesTrialName
+	.dw MapAWDS_224_TheNewBlackName
+	.dw MapAWDS_225_MaxAttacksName
+	.dw MapAWDS_226_ReclaimtheSkiesName
+	.dw MapAWDS_227_NeverendingWarName
+	.dw MapAWDS_228_TheOceanBlueName
+	.dw MapAWDS_229_FogRollsInName
+	.dw MapAWDS_230_TagBattleName
+	.dw MapAWDS_231_VictoryorDeathName
+	.dw MapAWDS_232_BlackBoatsAhoyName
+	.dw MapAWDS_233_LightningStrikesName
+	.dw MapAWDS_234_FrozenFortressName
+	.dw MapAWDS_235_VerdantHillsName
+	.dw MapAWDS_236_SnowHuntersName
+	.dw MapAWDS_237_OmensandSignsName
+	.dw MapAWDS_238_IntotheWoodsName
+	.dw MapAWDS_239_MuckAmokName
+	.dw MapAWDS_240_HealingTouchName
+	.dw MapAWDS_241_CrystalCalamityName
+	.dw MapAWDS_242_DarkAmbitionName
+	.dw MapAWDS_243_PincerStrikeName
+	.dw MapAWDS_244_RingofFireName
+	.dw MapAWDS_245_SurroundedName
+	.dw MapAWDS_246_FortheFutureName
+	.dw MapAWDS_247_MeanstoanEndName
+	.dw MapAWDS_248_TheLongMarchName
+	.dw MapAWDS_249_LashsTestName
+	.dw MapAWDS_250_SpiralGardenName
+	.dw MapAWDS_251_DSMapName	
+	.dw MapAWDS_252_DSMapName	
+	.dw MapAWDS_253_DSMapName	
+	.dw MapAWDS_254_DSMapName	
+	.dw MapAWDS_255_DSMapName	
 	;+0
 	.dw MapAW4Campaign1Name
 	.dw MapAW4Campaign2Name
