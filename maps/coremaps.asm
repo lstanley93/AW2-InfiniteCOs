@@ -261,7 +261,56 @@ MapHeaderTable:
 	.include maps/mapheaders/WRH2_029_SiloStorm.asm
 	.include maps/mapheaders/WRH2_030_UnholyAlliance.asm
 	
-;	.include maps/mapheaders/AW1_162_Rivals.asm
+;	.include maps/mapheaders/AW1_000.asm
+	.include maps/mapheaders/AW1_115_TroopOrders.asm
+	.include maps/mapheaders/AW1_116_TerrainIntel.asm
+	.include maps/mapheaders/AW1_117_BaseCapture.asm
+	.include maps/mapheaders/AW1_118_UnitRepair.asm
+	.include maps/mapheaders/AW1_119_APCABCs.asm
+	.include maps/mapheaders/AW1_120_TankOps.asm
+	.include maps/mapheaders/AW1_121_CopterTactics.asm
+	.include maps/mapheaders/AW1_122_AirAssault.asm
+	.include maps/mapheaders/AW1_123_AirDefence.asm
+	.include maps/mapheaders/AW1_124_Dogfights.asm
+	.include maps/mapheaders/AW1_125_NavalForces.asm
+	.include maps/mapheaders/AW1_126_ClimateStatus.asm
+	.include maps/mapheaders/AW1_127_FogOfWar.asm
+	.include maps/mapheaders/AW1_128_SpecialIntel.asm
+	.include maps/mapheaders/AW1_129_ItsWar.asm
+	.include maps/mapheaders/AW1_130_Gunfighter.asm
+	.include maps/mapheaders/AW1_131_AirAce.asm
+	.include maps/mapheaders/AW1_132_MaxStrikesA.asm
+	.include maps/mapheaders/AW1_133_MaxsFolly.asm
+	.include maps/mapheaders/AW1_134_OlafsNavy.asm
+	.include maps/mapheaders/AW1_135_OlafsSeaStrike.asm
+	.include maps/mapheaders/AW1_136_MaxStrikesB.asm
+	.include maps/mapheaders/AW1_137_Sniper.asm
+	.include maps/mapheaders/AW1_138_BlizzardBattle.asm
+	.include maps/mapheaders/AW1_139_HistoryLesson.asm
+	.include maps/mapheaders/AW1_140_SamisDebut.asm
+	.include maps/mapheaders/AW1_141_KanbeiArrives.asm
+	.include maps/mapheaders/AW1_142_MightyKanbei.asm
+	.include maps/mapheaders/AW1_143_KanbeisError.asm
+	.include maps/mapheaders/AW1_144_DivideAndConquer.asm
+	.include maps/mapheaders/AW1_145_SamiMarchesOn.asm
+	.include maps/mapheaders/AW1_146_SonjasGoal.asm
+	.include maps/mapheaders/AW1_147_CaptainDrakeA.asm
+	.include maps/mapheaders/AW1_148_CaptainDrakeB.asm
+	.include maps/mapheaders/AW1_149_CaptainDrakeC.asm
+	.include maps/mapheaders/AW1_150_NavalClashA.asm
+	.include maps/mapheaders/AW1_151_NavalClashB.asm
+	.include maps/mapheaders/AW1_152_NavalClashC.asm
+	.include maps/mapheaders/AW1_153_WingsOfVictoryA.asm
+	.include maps/mapheaders/AW1_154_WingsOfVictoryB.asm
+	.include maps/mapheaders/AW1_155_WingsOfVictoryC.asm
+	.include maps/mapheaders/AW1_156_BattleMysteryA.asm
+	.include maps/mapheaders/AW1_157_BattleMysteryB.asm
+	.include maps/mapheaders/AW1_158_BattleMysteryC.asm
+	.include maps/mapheaders/AW1_159_AndyTimesTwo.asm
+	.include maps/mapheaders/AW1_160_Enigma.asm
+	.include maps/mapheaders/AW1_161_TheFinalBattle.asm
+	.include maps/mapheaders/AW1_162_Rivals.asm
+	
 	.include maps/mapheaders/AWDS_223_JakesTrial.asm
 	.include maps/mapheaders/AWDS_224_TheNewBlack.asm
 	.include maps/mapheaders/AWDS_225_MaxAttacks.asm
@@ -359,9 +408,105 @@ MapWRH2_Waza:
 	.import maps/mapfiles/WarRoomHack2/WRH2_Waza.bin
 MapWRH2_Whirlpool:
 	.import maps/mapfiles/WarRoomHack2/WRH2_Whirlpool.bin
+
+MapAW1_Test:	
+MapAW1_115_TroopOrders:
+	.import maps/mapfiles/AW1/AW1_115_TroopOrders.map
+MapAW1_116_TerrainIntel:
+	.import maps/mapfiles/AW1/AW1_116_TerrainIntel.map
+MapAW1_117_BaseCapture:
+	.import maps/mapfiles/AW1/AW1_117_BaseCapture.map
+MapAW1_118_UnitRepair:
+	.import maps/mapfiles/AW1/AW1_118_UnitRepair.map
+MapAW1_119_APCABCs:
+	.import maps/mapfiles/AW1/AW1_119_APCABCs.map
+MapAW1_120_TankOps:
+	.import maps/mapfiles/AW1/AW1_120_TankOps.map
+MapAW1_121_CopterTactics:
+	.import maps/mapfiles/AW1/AW1_121_CopterTactics.map
+MapAW1_122_AirAssault:
+	.import maps/mapfiles/AW1/AW1_122_AirAssault.map
+MapAW1_123_AirDefence:
+	.import maps/mapfiles/AW1/AW1_123_AirDefence.map
+MapAW1_124_Dogfights:
+	.import maps/mapfiles/AW1/AW1_124_Dogfights.map
+MapAW1_125_NavalForces:
+	.import maps/mapfiles/AW1/AW1_125_NavalForces.map
+MapAW1_126_ClimateStatus:
+	.import maps/mapfiles/AW1/AW1_126_ClimateStatus.map
+MapAW1_127_FogOfWar:
+	.import maps/mapfiles/AW1/AW1_127_FogOfWar.map
+MapAW1_128_SpecialIntel:
+	.import maps/mapfiles/AW1/AW1_128_SpecialIntel.map
+MapAW1_129_ItsWar:
+	.import maps/mapfiles/AW1/AW1_129_ItsWar.map
+MapAW1_130_Gunfighter:
+	.import maps/mapfiles/AW1/AW1_130_Gunfighter.map
+MapAW1_131_AirAce:
+	.import maps/mapfiles/AW1/AW1_131_AirAce.map
+MapAW1_132_MaxStrikesA:
+	.import maps/mapfiles/AW1/AW1_132_MaxStrikesA.map
+MapAW1_133_MaxsFolly:
+	.import maps/mapfiles/AW1/AW1_133_MaxsFolly.map
+MapAW1_134_OlafsNavy:
+	.import maps/mapfiles/AW1/AW1_134_OlafsNavy.map
+MapAW1_135_OlafsSeaStrike:
+	.import maps/mapfiles/AW1/AW1_135_OlafsSeaStrike.map
+MapAW1_136_MaxStrikesB:
+	.import maps/mapfiles/AW1/AW1_136_MaxStrikesB.map
+MapAW1_137_Sniper:
+	.import maps/mapfiles/AW1/AW1_137_Sniper.map
+MapAW1_138_BlizzardBattle:
+	.import maps/mapfiles/AW1/AW1_138_BlizzardBattle.map
+MapAW1_139_HistoryLesson:
+	.import maps/mapfiles/AW1/AW1_139_HistoryLesson.map
+MapAW1_140_SamisDebut:
+	.import maps/mapfiles/AW1/AW1_140_SamisDebut.map
 	
-MapAW1_Rivals:
-	.import maps/mapfiles/AW1/AW1_162.map
+MapAW1_141_KanbeiArrives:
+	.import maps/mapfiles/AW1/AW1_141_KanbeiArrives.map
+MapAW1_142_MightyKanbei:
+	.import maps/mapfiles/AW1/AW1_142_MightyKanbei.map
+MapAW1_143_KanbeisError:
+	.import maps/mapfiles/AW1/AW1_143_KanbeisError.map
+MapAW1_144_DivideandConquer:
+	.import maps/mapfiles/AW1/AW1_144_DivideandConquer.map
+MapAW1_145_SamiMarchesOn:
+	.import maps/mapfiles/AW1/AW1_145_SamiMarchesOn.map
+MapAW1_146_SonjasGoal:
+	.import maps/mapfiles/AW1/AW1_146_SonjasGoal.map
+MapAW1_147_CaptainDrakeA:
+	.import maps/mapfiles/AW1/AW1_147_CaptainDrakeA.map
+MapAW1_148_CaptainDrakeB:
+	.import maps/mapfiles/AW1/AW1_148_CaptainDrakeB.map
+MapAW1_149_CaptainDrakeC:
+	.import maps/mapfiles/AW1/AW1_149_CaptainDrakeC.map
+MapAW1_150_NavalClashA:
+	.import maps/mapfiles/AW1/AW1_150_NavalClashA.map
+MapAW1_151_NavalClashB:
+	.import maps/mapfiles/AW1/AW1_151_NavalClashB.map
+MapAW1_152_NavalClashC:
+	.import maps/mapfiles/AW1/AW1_152_NavalClashC.map
+MapAW1_153_WingsOfVictoryA:
+	.import maps/mapfiles/AW1/AW1_153_WingsOfVictoryA.map
+MapAW1_154_WingsOfVictoryB:
+	.import maps/mapfiles/AW1/AW1_154_WingsOfVictoryB.map
+MapAW1_155_WingsOfVictoryC:
+	.import maps/mapfiles/AW1/AW1_155_WingsOfVictoryC.map
+MapAW1_156_BattleMysteryA:
+	.import maps/mapfiles/AW1/AW1_156_BattleMysteryA.map
+MapAW1_157_BattleMysteryB:
+	.import maps/mapfiles/AW1/AW1_157_BattleMysteryB.map
+MapAW1_158_BattleMysteryC:
+	.import maps/mapfiles/AW1/AW1_158_BattleMysteryC.map
+MapAW1_159_AndyTimesTwo:
+	.import maps/mapfiles/AW1/AW1_159_AndyTimesTwo.map
+MapAW1_160_Enigma:
+	.import maps/mapfiles/AW1/AW1_160_Enigma.map
+MapAW1_161_TheFinalBattle:
+	.import maps/mapfiles/AW1/AW1_161_TheFinalBattle.map
+MapAW1_162_Rivals:
+	.import maps/mapfiles/AW1/AW1_162_Rivals.map
 	
 MapAWDS_223_JakesTrial:
 	.import maps/mapfiles/AW3/AWDS_223.map
@@ -429,7 +574,7 @@ MapAWDS_254:
 	.import maps/mapfiles/AW3/AWDS_254.map
 MapAWDS_255:
 	.import maps/mapfiles/AW3/AWDS_255.map
-
+	
 ;MapAW4Campaign1:
 ;	.import maps/mapfiles/AW4/cmp01.map
 ;MapAW4Campaign2:

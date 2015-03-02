@@ -131,7 +131,7 @@ MapWRH2_BattleBridgeName:
 MapWRH2_BeachHeadName:
 	.ascii "Beach Head",0x0
 MapWRH2_BombardierName:
-	.ascii "Bombardier",0x0
+	.ascii "Bombardier League",0x0
 MapWRH2_CityOfGoldName:
 	.ascii "City of Gold",0x0
 MapWRH2_CometCatcherName:
@@ -151,7 +151,7 @@ MapWRH2_IronKnuckleName:
 MapWRH2_IslandNationName:
 	.ascii "Island Nation",0x0
 MapWRH2_LegionPeninsulaName:
-	.ascii "Legion Pn.",0x0
+	.ascii "Legion Peninsula",0x0
 MapWRH2_LongBridgeName:
 	.ascii "Long Bridge",0x0
 MapWRH2_MarshlandsName:
@@ -169,7 +169,7 @@ MapWRH2_SiloStormName:
 MapWRH2_SnowDayName:
 	.ascii "Snow Day",0x0
 MapWRH2_SorrowsBluffName:
-	.ascii "Sorrow's Bl.",0x0
+	.ascii "Sorrow's Bluff",0x0
 MapWRH2_SplitMountainName:
 	.ascii "Split Mountain",0x0
 MapWRH2_TalysmanName:
@@ -183,8 +183,102 @@ MapWRH2_WazaName:
 MapWRH2_WhirlpoolName:
 	.ascii "Whirlpool",0x0
 	
+MapAW1_115_TroopOrdersName:
+	.ascii "Troop Orders",0x0
+MapAW1_116_TerrainIntelName:
+	.ascii "Terrain Intel",0x0
+MapAW1_117_BaseCaptureName:
+	.ascii "Base Capture",0x0
+MapAW1_118_UnitRepairName:
+	.ascii "Unit Repair",0x0
+MapAW1_119_APCABCsName:
+	.ascii "APC ABCs",0x0
+MapAW1_120_TankOpsName:
+	.ascii "Tank Ops",0x0
+MapAW1_121_CopterTacticsName:
+	.ascii "Copter Tactics",0x0
+MapAW1_122_AirAssaultName:
+	.ascii "Air Assault",0x0
+MapAW1_123_AirDefenceName:
+	.ascii "Air Defence",0x0
+MapAW1_124_DogfightsName:
+	.ascii "Dogfights",0x0
+MapAW1_125_NavalForcesName:
+	.ascii "Naval Forces",0x0
+MapAW1_126_ClimateStatusName:
+	.ascii "Climate Status",0x0
+MapAW1_127_FogOfWarName:
+	.ascii "Fog of War",0x0
+MapAW1_128_SpecialIntelName:
+	.ascii "Special Intel",0x0
+MapAW1_129_ItsWarName:
+	.ascii "It's War!",0x0
+MapAW1_130_GunfighterName:
+	.ascii "Gunfighter",0x0
+MapAW1_131_AirAceName:
+	.ascii "Air Ace",0x0
+MapAW1_132_MaxStrikesAName:
+	.ascii "Max Strikes (A)",0x0
+MapAW1_133_MaxsFollyName:
+	.ascii "Max's Folly",0x0
+MapAW1_134_OlafsNavyName:
+	.ascii "Olaf's Navy",0x0
+MapAW1_135_OlafsSeaStrikeName:
+	.ascii "Olaf's Sea Strike",0x0
+MapAW1_136_MaxStrikesBName:
+	.ascii "Max Strikes (M)",0x0
+MapAW1_137_SniperName:
+	.ascii "Sniper",0x0
+MapAW1_138_BlizzardBattleName:
+	.ascii "Blizzard Battle",0x0
+MapAW1_139_HistoryLessonName:
+	.ascii "History Lesson",0x0
+MapAW1_140_SamisDebutName:
+	.ascii "Sami's Debut",0x0
+MapAW1_141_KanbeiArrivesName:
+	.ascii "Kanbei Arrives",0x0
+MapAW1_142_MightyKanbeiName:
+	.ascii "Mighty Kanbei",0x0
+MapAW1_143_KanbeisErrorName:
+	.ascii "Kanbei's Error",0x0
+MapAW1_144_DivideandConquerName:
+	.ascii "Divide And Conquer",0x0
+MapAW1_145_SamiMarchesOnName:
+	.ascii "Sami Marches On",0x0
+MapAW1_146_SonjasGoalName:
+	.ascii "Sonja's Goal",0x0
+MapAW1_147_CaptainDrakeAName:
+	.ascii "Captain Drake (A)",0x0
+MapAW1_148_CaptainDrakeBName:
+	.ascii "Captain Drake (M)",0x0
+MapAW1_149_CaptainDrakeCName:
+	.ascii "Captain Drake (S)",0x0
+MapAW1_150_NavalClashAName:
+	.ascii "Naval Clash (A)",0x0
+MapAW1_151_NavalClashBName:
+	.ascii "Naval Clash (M)",0x0
+MapAW1_152_NavalClashCName:
+	.ascii "Naval Clash (S)",0x0
+MapAW1_153_WingsOfVictoryAName:
+	.ascii "Wings of Victory (A)",0x0
+MapAW1_154_WingsOfVictoryBName:
+	.ascii "Wings of Victory (M)",0x0
+MapAW1_155_WingsOfVictoryCName:
+	.ascii "Wings of Victory (S)",0x0
+MapAW1_156_BattleMysteryAName:
+	.ascii "Battle Mystery (A)",0x0
+MapAW1_157_BattleMysteryBName:
+	.ascii "Battle Mystery (M)",0x0
+MapAW1_158_BattleMysteryCName:
+	.ascii "Battle Mystery (S)",0x0
+MapAW1_159_AndyTimesTwoName:
+	.ascii "Andy Times Two",0x0
+MapAW1_160_EnigmaName:
+	.ascii "Enigma",0x0
+MapAW1_161_TheFinalBattleName:
+	.ascii "The Final Battle",0x0
 MapAW1_162_RivalsName:
-	.ascii "Rivals!",0x0
+	.ascii "Rivals",0x0
 	
 MapAWDS_223_JakesTrialName:
 	.ascii "Jake's Trial",0x0

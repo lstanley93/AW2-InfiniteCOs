@@ -1,8 +1,9 @@
 ;mapnametable.asm
 
 	AdditionalMapCaseNames	equ	ScriptCCOZed+14
-	AW1CampaignMapNames	equ 	AdditionalMapCaseNames+7
-	AWDSCampaignMapNames	equ	AW1CampaignMapNames+1
+	AW1TutorialMapNames	equ	AdditionalMapCaseNames+7
+	AW1CampaignMapNames	equ 	AW1TutorialMapNames+14
+	AWDSCampaignMapNames	equ	AW1CampaignMapNames+34
 	AdditionalMapNames	equ	AWDSCampaignMapNames+33
 	
 	.dw MapCaseNameOne
@@ -13,6 +14,54 @@
 	.dw MapCaseNameSix
 	.dw MapCaseNameSeven
 	
+	.dw MapAW1_115_TroopOrdersName
+	.dw MapAW1_116_TerrainIntelName
+	.dw MapAW1_117_BaseCaptureName
+	.dw MapAW1_118_UnitRepairName
+	.dw MapAW1_119_APCABCsName
+	.dw MapAW1_120_TankOpsName
+	.dw MapAW1_121_CopterTacticsName
+	.dw MapAW1_122_AirAssaultName
+	.dw MapAW1_123_AirDefenceName
+	.dw MapAW1_124_DogfightsName
+	.dw MapAW1_125_NavalForcesName
+	.dw MapAW1_126_ClimateStatusName
+	.dw MapAW1_127_FogOfWarName
+	.dw MapAW1_128_SpecialIntelName
+	
+	.dw MapAW1_129_ItsWarName
+	.dw MapAW1_130_GunfighterName
+	.dw MapAW1_131_AirAceName
+	.dw MapAW1_132_MaxStrikesAName
+	.dw MapAW1_133_MaxsFollyName
+	.dw MapAW1_134_OlafsNavyName
+	.dw MapAW1_135_OlafsSeaStrikeName
+	.dw MapAW1_136_MaxStrikesBName
+	.dw MapAW1_137_SniperName
+	.dw MapAW1_138_BlizzardBattleName
+	.dw MapAW1_139_HistoryLessonName
+	.dw MapAW1_140_SamisDebutName
+	.dw MapAW1_141_KanbeiArrivesName
+	.dw MapAW1_142_MightyKanbeiName
+	.dw MapAW1_143_KanbeisErrorName
+	.dw MapAW1_144_DivideandConquerName
+	.dw MapAW1_145_SamiMarchesOnName
+	.dw MapAW1_146_SonjasGoalName
+	.dw MapAW1_147_CaptainDrakeAName
+	.dw MapAW1_148_CaptainDrakeBName
+	.dw MapAW1_149_CaptainDrakeCName
+	.dw MapAW1_150_NavalClashAName
+	.dw MapAW1_151_NavalClashBName
+	.dw MapAW1_152_NavalClashCName
+	.dw MapAW1_153_WingsOfVictoryAName
+	.dw MapAW1_154_WingsOfVictoryBName
+	.dw MapAW1_155_WingsOfVictoryCName
+	.dw MapAW1_156_BattleMysteryAName
+	.dw MapAW1_157_BattleMysteryBName
+	.dw MapAW1_158_BattleMysteryCName
+	.dw MapAW1_159_AndyTimesTwoName
+	.dw MapAW1_160_EnigmaName
+	.dw MapAW1_161_TheFinalBattleName
 	.dw MapAW1_162_RivalsName
 	
 	.dw MapAWDS_223_JakesTrialName

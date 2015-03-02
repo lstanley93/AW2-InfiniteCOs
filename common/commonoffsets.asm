@@ -3,7 +3,7 @@
 ;Offsets that are used globally by AW2
 
 MaxCOId equ 68
-MapHeaderMaximum equ 190+30+33+1;Maximum 255, First Extra is 191
+MapHeaderMaximum equ 302 ;Maximum 255, First Extra is 191
 
 BaseMapPointer 		equ 0x08499590
 BaseUnitPointer 	equ 0x08499598
