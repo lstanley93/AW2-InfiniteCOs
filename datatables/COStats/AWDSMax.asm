@@ -4,7 +4,7 @@
 	.dw ScriptAWDSMax
 	
 ;Song ID to play for this CO
-	.dh MusicOrangeStar
+	.dh MusicMaxTheme
 	
 ;Snowbringer Percentage
 	.dh 0
