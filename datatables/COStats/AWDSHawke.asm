@@ -4,7 +4,7 @@
 	.dw ScriptAWDSHawke
 	
 ;Song ID to play for this CO
-	.dh MusicAdderTheme
+	.dh MusicHawkeTheme
 	
 ;Snowbringer Percentage
 	.dh 0
